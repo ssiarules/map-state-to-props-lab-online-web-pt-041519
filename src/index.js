@@ -13,7 +13,7 @@ const store = createStore(manageUsers);
 
 ReactDOM.render(
   // add imports and code
-  <Provider={store}
+  <Provider store={store}>
   <App />
   // add imports and code
   </Provider>
