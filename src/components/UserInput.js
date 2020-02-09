@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
+import Users from './components/Users'
 
 class UserInput extends Component {
 
