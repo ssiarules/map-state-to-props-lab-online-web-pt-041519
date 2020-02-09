@@ -21,8 +21,10 @@ class Users extends Component {
         <ul>
           Users!
           {/* Write code here that displays the usernames of all users in the Redux store */}
-            {this}
+            {this.renderUsers}
           {/* In addition, display the total number of users curently in the store */}
+
+            <h3> Total User: {this.props.userCount} </h3>
         </ul>
       </div>
     )
