@@ -6,7 +6,8 @@ import manageUsers from './reducers/manageUsers'
 
 
 // add imports and code
-import Provider from 'react-redux'
+import {Provider} from 'react-redux'
+import { createStore} from 'redux'
 
 const store = createStore(manageUsers);
 
