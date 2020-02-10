@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // add any needed imports here
-
 import { connect } from 'react-redux'
+
 class Users extends Component {
 
   renderUsers(){
@@ -19,7 +19,6 @@ class Users extends Component {
     return (
       <div>
         <ul>
-          Users!
           {/* Write code here that displays the usernames of all users in the Redux store */}
             {this.renderUsers}
           {/* In addition, display the total number of users curently in the store */}
